@@ -13,7 +13,8 @@
   {{ content }}
   
    <div class="footer">
-      data: {{ page.xx1 }}
+      data: {{ page.xx1 }} <br/>
+      page.tags: {{ page.tags | array_to_sentence_string }}
    </div>      
 </div>
 
