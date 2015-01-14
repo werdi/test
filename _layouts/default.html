@@ -6,17 +6,13 @@
 </head>
 <body>
 <div class="site">
-  <div class="title">
-    <a class="extra" href="/{{ site.github.project_title }}">home</a>
-  </div>
-  
-  {{ content }}
-  
+   <div class="title">
+      <a class="extra" href="/{{ site.github.project_title }}">home</a>
+   </div>
+   {{ content }}
    <div class="footer">
       _data: {{ page.xx1 }} <br/>
-      page.tags: {{ page.tags | array_to_sentence_string }}
    </div>      
 </div>
-
 </body>
 </html>
