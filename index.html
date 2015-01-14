@@ -13,9 +13,9 @@ project: {{ site.github.project_title }} <br/>
       <br/>
       <a href=".{{ post.url | replace: '.html', ' ' }}">{{ post.title }}</a>
       <br/>{{ post.content | strip_html | truncatewords: 50 }}
-      <br/>site.categories: {{ site.categories }}
-      <br/>post.categories: {{ post.categories }}
-      <br/>post.tags: {{ post.tags }}
+      <br/>site.categories: {{ site.categories | array_to_sentence_string }}
+      <br/>post.categories: {{ post.categories | array_to_sentence_string }}
+      <br/>post.tags: {{ post.tags | array_to_sentence_string }}
       <br/>data: {{ post.xx1 }}
     </li>
   {% endfor %}
