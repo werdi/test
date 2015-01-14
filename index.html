@@ -9,7 +9,10 @@ project: {{ site.github.project_title }} <br/>
   {% for post in site.posts %}
     <li>
       date: {{ post.date | date_to_string }}; title: {{ post.title }}; url: {{ post.url }}; site.url: {{ site.url }}
+      <br/>
       <a href="test/{{post.url}}">{{ post.title }}</a>
+      <br/>
+      {{ post.content | strip_html | truncatewords: 50 }}
     </li>
   {% endfor %}
 </ul>
