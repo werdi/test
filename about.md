@@ -1,4 +1,8 @@
 
+---
+permalink: /about/
+---
+
 ```c#
 class test { 
     public test() {}
