@@ -9,7 +9,7 @@ project: {{ site.github.project_title }} <br/>
   {% for post in site.posts %}
     <li>
       <span>{{ post.date | date_to_string }}</span> &raquo; 
-      <a href="{{ site.github.project_title }}/{{ post.title }}">{{ post.title }}</a>
+      <a href="{{ post.title }}">{{ post.title }} - {{ post.url }}</a>
     </li>
   {% endfor %}
 </ul>
