@@ -10,7 +10,7 @@ project: {{ site.github.project_title }} <br/>
     <li>
       date: {{ post.date | date_to_string }}; title: {{ post.title }}; url: {{ post.url }}; site.url: {{ site.url }}
       <br/>
-      <a href=".{{ post.url }}">{{ post.title }}</a>
+      <a href=".{{ post.url | replace: '.html', '' }}">{{ post.title }}</a>
       <br/>{{ post.content | strip_html | truncatewords: 50 }}
       <br/>site.categories: {{ site.categories }}
       <br/>post.categories: {{ post.categories }}
