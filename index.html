@@ -3,8 +3,8 @@ layout: default
 title: Index 
 ---
 hello <br/>
-{{ site.path }}/
-<br/>
+path: {{ site.path }} <br/>
+project: {{ site.github.project_title }} <br/>
 <ul class="posts">
   {% for post in site.posts %}
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
