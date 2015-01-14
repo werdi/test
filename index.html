@@ -8,7 +8,8 @@ project: {{ site.github.project_title }} <br/>
 <ul class="posts">
   {% for post in site.posts %}
     <li>
-      date: {{ post.date | date_to_string }}; title: {{ post.title }}; url: {{ post.url }}
+      date: {{ post.date | date_to_string }}; title: {{ post.title }}; url: {{ post.url }}; site.url: {{ site.url }}
+      <a href="{{site.url}}/{{post.url}}">{{ post.title }}</a>
     </li>
   {% endfor %}
 </ul>
