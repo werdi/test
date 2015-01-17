@@ -14,8 +14,8 @@
 14.01.2015  19:09    <DIR>          _includes
 14.01.2015  19:09    <DIR>          _layouts
 17.01.2015  13:13    <DIR>          _posts
-               5 File(s)          1ÿ286 bytes
-               6 Dir(s)   7ÿ870ÿ640ÿ128 bytes free
+               5 File(s)          1Ã¿286 bytes
+               6 Dir(s)   7Ã¿870Ã¿640Ã¿128 bytes free
 
 
-12345
+12345...
