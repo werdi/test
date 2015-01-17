@@ -15,5 +15,5 @@ class test {
 class test2 { 
     public test2() {}
     public int Value {get; set;}
- /* c3+ */ }
+ /* c3+2 */ }
 {% endhighlight %}
