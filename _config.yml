@@ -1,7 +1,3 @@
 markdown: rdiscount
 highlighter: pygments 
-<<<<<<< HEAD
-  # comment2      ??
-=======
-  # comment2  ++    
->>>>>>> 1b8d2f9a3b6325ebd5af3219fdc263dd0e52a192
+# comment2  ++    
